@@ -37,19 +37,29 @@
 ### User Stories
 
 #### User Storie #1
-    In order to <achieve some business value>,
-    As a <stakeholder type>
-    I want <some new system feature>
+    Als User,
+    will ich einen Task mit Titel und Beschreibung ertstellen
+    damit ich den Task im ToDo ansehen kann.
     
 #### User Storie #2
-    In order to <achieve some business value>,
-    As a <stakeholder type>
-    I want <some new system feature>
+    Als User,
+    will ich einen Task per Drag and Drop in ein anderes Feld ziehen
+    damit der Status des Taskt geändert wird.
     
 #### User Storie #3
-    In order to <achieve some business value>,
-    As a <stakeholder type>
-    I want <some new system feature>
+    Als User,
+    will ich ein Task einer Person zuweisen
+    damit der Task dieser Person untergeortnet ist.
+    
+#### User Storie #4
+    Als User,
+    will ich ein Tasks nach Person zu sortieren
+    damit ich besser Überblick habe.
+    
+#### User Storie #5
+    Als User,
+    will ich neue Personen kit Name und Job erstellen
+    damit ich Tasks neuen Personen zuweisen kann.
 
 <a name="udiagramm"/>
 
