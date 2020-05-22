@@ -68,10 +68,10 @@
 ![Picture ScrumBoard](res/Board.png)
 
 #### Create Task
-![Picture CreateTask](res/CreateNewUser.png)
+![Picture CreateTask](res/CreateNewTask.png)
 
 #### Create User
-![Picture CreateUser](res/CreateUser.png)
+![Picture CreateUser](res/CreateNewUser.png)
 
 <a name="testing"/>
 
