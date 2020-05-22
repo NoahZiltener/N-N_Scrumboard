@@ -19,13 +19,13 @@
 
 ### Autor und Dokument
 * Autor: **Noah Ziltener & Nick Durrer**
-* Erstelldatum: **05.22.2020**
-* letzte Aktualisierung: **12.03.2020**
+* Erstelldatum: **22.05.2020**
+* letzte Aktualisierung: **22.05.2020**
 
 <a name="projekt"/>
 
 ### Projekt
-* Projektstart: **05.22.2020**   
+* Projektstart: **22.05.2020**   
 * Projektende: **-** 
 
 <a name="planung"/>
@@ -60,6 +60,21 @@
     Als User,
     will ich neue Personen kit Name und Job erstellen
     damit ich Tasks neuen Personen zuweisen kann.
+    
+### Zeitplanung
+| Paket | Perosn | End-Datum | Status|
+| ----------- | -------------- | ------ | --------------------------------- |
+| Mokups erstellen | Nick Durrer | 22/05/2020 | ✅|
+| Unser Stories erstellen | Noah Ziltener | 22/05/2020 | ✅ |
+| Prototyp mit MVVM umsetzten (Tutorials schauen) | Noah Ziltener / Nick Durrer | 29/05/2020 | ❌ |
+| Aufbau Applikation besprechen | Noah Ziltener / Nick Durrer | 29/05/2020 | ❌ |
+| Scrumboard in XAML umsetzen | Nick Durrer | 05/06/2020 | ❌ |
+| Create Task View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ❌ |
+| Create User View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ❌ |
+| Task erstellen Logik | Nick Durrer | 12/06/2020 | ❌ |
+| Task Sortirung | Nick Durrer | 19/06/2020 | ❌ |
+| Drag and Drop von Scrum Board | Noah Ziltener | 19/06/2020 | ❌ |
+| Testen & Resüme | Noah Ziltener / Nick Durrer | 26/06/2020 | ❌ |
 
 <a name="udiagramm"/>
 
