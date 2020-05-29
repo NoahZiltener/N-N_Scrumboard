@@ -105,6 +105,11 @@
 <a name="prototyp"/>
 
 ### Prototyp
+#### Linksammlung
+
+| Link | Kommentar |
+| ----- | ------------ |
+| https://riptutorial.com/mvvm | GUT |
 
 <a name="testing"/>
 
