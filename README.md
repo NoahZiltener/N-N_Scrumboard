@@ -110,8 +110,8 @@
 
 | Link | Kommentar |
 | ----- | ------------ |
-| https://riptutorial.com/mvvm | GUT |
-
+| https://riptutorial.com/mvvm | Das Tutorial war Gut. WIr haben es beide parallel gemacht. Bei Noah hat es ganz am Schluss des Tutorials Errors gegeben. Es gab Problemme mit dem XAML Code. Wir konnte das Problemm nicht lösen was ein bischen frustriren war. Noah hat dan am Schluss das Projekt von Nick genommen und es hat alles Funktioniert. Das Tutorial hat gut erklährt wie MVVM aufgebaut ist und wie man es umsetzen muss. Das Programm hatte aber keine funktion also habe wir uns noch ein anders Tutorial gesucht.|
+| https://riptutorial.com/wpf/example/992/basic-mvvm-example-using-wpf-and-csharp | Das Tutorial hat weniger erklähr wie MVVM funktioniert sonder einfach den Code aufgezeigt. Wir haben das Programmcode abgeschrieben und haben ihn analysiert. Wir habe uns gegenseitg den Code erklährt. Wir habe auch unterschied zu dem ersten Tutorila gefunden z.B. bei der OnPropertyChange Methode. Wir fanden das beim Zweiten Prototyp mehr Funktion vorhanden war und man mehr das Prinzip von Databinding zu vrstehen.|
 <a name="testing"/>
 
 ### Testfälle
