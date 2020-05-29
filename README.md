@@ -67,7 +67,8 @@
 | ----------- | -------------- | ------ | --------------------------------- |
 | Mokups erstellen | Nick Durrer | 22/05/2020 | ✅|
 | Unser Stories erstellen | Noah Ziltener | 22/05/2020 | ✅ |
-| Prototyp mit MVVM umsetzten (Tutorials schauen) | Noah Ziltener / Nick Durrer | 29/05/2020 | ❌ |
+| Prototyp mit MVVM umsetzten (Tutorials schauen) | Noah Ziltener / Nick Durrer | 29/05/2020 | ✅ |
+| Bedienungskonzept | Nick Durrer | 29/05/2020 | ✅ |
 | Aufbau Applikation besprechen | Noah Ziltener / Nick Durrer | 29/05/2020 | ❌ |
 | Scrumboard in XAML umsetzen | Nick Durrer | 05/06/2020 | ❌ |
 | Create Task View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ❌ |
