@@ -62,7 +62,7 @@
     damit ich Tasks neuen Personen zuweisen kann.
     
 ### Zeitplanung
-| Paket | Perosn | End-Datum | Status|
+| Paket | Person | End-Datum | Status|
 | ----------- | -------------- | ------ | --------------------------------- |
 | Mokups erstellen | Nick Durrer | 22/05/2020 | ✅|
 | Unser Stories erstellen | Noah Ziltener | 22/05/2020 | ✅ |
