@@ -82,12 +82,25 @@
 ### Mockups
 #### ScrumBoard
 ![Picture ScrumBoard](res/Board.png)
+#### Bedienungskonzept
+Board Allgemein: Es soll möglich sein die verschiedenen Tasks im Board zwischen den 4 verschiedenen Spalten zu verschieben.
+Show Tasks from Button: Mit diesem Knopf ist die Idee das man nach User sortieren kann und dann nur die Aufträge dieser User sieht.
+New Task Button: Mit dem New Task Button öffnet sich das Create Task Fenster um einen neuen Task zu erstellen.
+New User Button: Mit dem New User Button öffnet sich das Create User Fenser um einen neuen User zu erfassen.
 
 #### Create Task
 ![Picture CreateTask](res/CreateNewTask.png)
+#### Bedienungskonzept
+Assigned To Dropbox: Dort soll man zwischen allen User auswählen können wer diesen Task bearbeiten soll.
+Title Textbox: In dieser Box soll der Titel für den Task festgelegt werden.
+Description Textarea: In diesem Feld soll man den Task beschreiben können.
 
 #### Create User
 ![Picture CreateUser](res/CreateNewUser.png)
+#### Bedienungskonzept
+Name Textbox: In dieser Textbox kann der Name des neuen User erfasst werden.
+Job Textbox: In dieser Textbox wird der Job des Users erfasst.
+Image Button: Beim Image Button soll sich der Explorer öffnen um ein Profilbild zu wählen.
 
 <a name="prototyp"/>
 
