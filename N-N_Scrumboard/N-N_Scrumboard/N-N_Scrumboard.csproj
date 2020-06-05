@@ -65,6 +65,9 @@
     <Compile Include="View\Board.xaml.cs">
       <DependentUpon>Board.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\CreateView.xaml.cs">
+      <DependentUpon>CreateView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -94,6 +97,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="View\Board.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CreateView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
