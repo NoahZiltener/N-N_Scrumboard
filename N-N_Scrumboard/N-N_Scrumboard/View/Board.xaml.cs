@@ -18,9 +18,9 @@ namespace N_N_Scrumboard.View
     /// <summary>
     /// Interaction logic for main.xaml
     /// </summary>
-    public partial class main : Window
+    public partial class Board : Window
     {
-        public main()
+        public Board()
         {
             InitializeComponent();
         }
