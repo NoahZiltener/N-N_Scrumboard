@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-N:\Nick_HomeSchool\M120\N-N_Scrumboard\N-N_Scrumboard\N-N_Scrumboard\obj\Debug\
+C:\temp\git\N-N_Scrumboard\N-N_Scrumboard\N-N_Scrumboard\obj\Debug\
 N_N_Scrumboard
 none
 false
 DEBUG;TRACE
-N:\Nick_HomeSchool\M120\N-N_Scrumboard\N-N_Scrumboard\N-N_Scrumboard\App.xaml
-11151548125
+C:\temp\git\N-N_Scrumboard\N-N_Scrumboard\N-N_Scrumboard\App.xaml
+11571424532
 
-6-1930438595
+5-2063212403
 13-1505183044
-MainWindow.xaml;
+View\main.xaml;
 
-True
+False
 
