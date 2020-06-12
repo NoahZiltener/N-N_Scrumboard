@@ -1,4 +1,5 @@
 # M120 N-N_Scrumboard
+![Scrumboard](res/scrumboard.png)
 ## Inhaltsverzeichnis
 * [Einleitung](#einleitung)
   * [Autor](#autor)
