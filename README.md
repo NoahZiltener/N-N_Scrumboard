@@ -91,7 +91,7 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 - Show Tasks from Button: Mit diesem Knopf ist die Idee das man nach User sortieren kann und dann nur die Aufträge dieser User sieht.
 - New Task Button: Mit dem New Task Button öffnet sich das Create Task Fenster um einen neuen Task zu erstellen.
 - New User Button: Mit dem New User Button öffnet sich das Create User Fenser um einen neuen User zu erfassen.
-- Edit Button: Mit dem Edit Button auf einem Task soll sich das Create Task Fenster öffnen mit den aktuellen Daten, um diese dan zu bearbeiten.
+- Edit Button: Mit dem Edit Button bei einem Task soll sich das Create Task Fenster öffnen mit den aktuellen Daten, um diese dann zu bearbeiten.
 
 #### Create Task
 ![Picture CreateTask](res/CreateNewTask.png)
