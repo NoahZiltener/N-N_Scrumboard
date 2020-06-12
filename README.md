@@ -74,7 +74,7 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 | Aufbau Applikation besprechen | Noah Ziltener / Nick Durrer | 29/05/2020 | ✅ |
 | Scrumboard in XAML umsetzen | Nick Durrer | 05/06/2020 | ✅ |
 | Create Task View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ✅ |
-| Create User View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ❌ |
+| Create User View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ✅ |
 | Task erstellen Logik | Nick Durrer | 12/06/2020 | ❌ |
 | User erstellen Logik | Noah Ziltener | 12/06/2020 | ❌ |
 | Task Sortirung | Nick Durrer | 19/06/2020 | ❌ |
