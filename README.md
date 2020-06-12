@@ -47,21 +47,21 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 #### User Storie #2
     Als User,
     will ich einen Task per Drag and Drop in ein anderes Feld ziehen
-    damit der Status des Taskt geändert wird.
+    damit der Status des Tasks geändert wird.
     
 #### User Storie #3
     Als User,
-    will ich ein Task einer Person zuweisen
+    will ich einer Task einer Person zuweisen
     damit der Task dieser Person untergeortnet ist.
     
 #### User Storie #4
     Als User,
-    will ich ein Tasks nach Person zu sortieren
-    damit ich besser Überblick habe.
+    will ich Tasks nach Person sortieren
+    damit ich einen besseren Überblick habe.
     
 #### User Storie #5
     Als User,
-    will ich neue Personen kit Name und Job erstellen
+    will ich neue Personen mit Name und Job erstellen
     damit ich Tasks neuen Personen zuweisen kann.
     
 ### Zeitplanung
@@ -87,10 +87,11 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 #### ScrumBoard
 ![Picture ScrumBoard](res/Board.png)
 #### Bedienungskonzept
-- Board Allgemein: Es soll möglich sein die verschiedenen Tasks im Board zwischen den 4 verschiedenen Spalten zu verschieben.
+- Board Allgemein: Es soll möglich sein die verschiedenen Tasks im Board zwischen den 4 verschiedenen Spalten zu verschieben (Drag and Drop).
 - Show Tasks from Button: Mit diesem Knopf ist die Idee das man nach User sortieren kann und dann nur die Aufträge dieser User sieht.
 - New Task Button: Mit dem New Task Button öffnet sich das Create Task Fenster um einen neuen Task zu erstellen.
 - New User Button: Mit dem New User Button öffnet sich das Create User Fenser um einen neuen User zu erfassen.
+- Edit Button: Mit dem Edit Button auf einem Task soll sich das Create Task Fenster öffnen mit den aktuellen Daten, um diese dan zu bearbeiten.
 
 #### Create Task
 ![Picture CreateTask](res/CreateNewTask.png)
