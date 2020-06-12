@@ -114,6 +114,8 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 ### Prototyp
 #### Linksammlung
 
+Um das MVVM Patern besser kennen zu lernen haben wir uns folgende zwei Tutorials angeschaut und durchgearbeitet. Den Code von den zwei Prototypen findet man im Ordner [Prototyp](/Prototyp).
+
 | Link | Kommentar |
 | ----- | ------------ |
 | https://riptutorial.com/mvvm | Das Tutorial war ein guter Einstieg für unser Projekt. Wir haben es beide parallel gemacht. Bei Noah hat es ganz am Schluss des Tutorials Errors gegeben. Es gab Problemme mit dem XAML Code. Wir konnte das Problem nicht lösen was ein bischen frustrierent war. Noah hat dan am Schluss das Projekt von Nick genommen und es hat alles Funktioniert. Das Tutorial war gut erklärt wie MVVM aufgebaut ist und wie man es umsetzen muss. Das Programm hatte aber keine funktion also haben wir uns noch ein anders Tutorial gesucht.|
