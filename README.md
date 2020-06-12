@@ -1,8 +1,10 @@
 # M120 N-N_Scrumboard
+![Scrumboard](res/scrumboard.png)
 ## Inhaltsverzeichnis
 * [Einleitung](#einleitung)
   * [Autor](#autor)
   * [Projekt](#projekt)
+  * [Lernjournal](#lernjournal)
 * [Planung](#planung)
   * [User Stories](#userstory)
   * [UseCase Diagram](#udiagramm)
@@ -30,6 +32,11 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 ### Projekt
 * Projektstart: **22.05.2020**   
 * Projektende: **-** 
+
+<a name="lernjournal"/>
+
+### Lernjournal
+Unser Lernjournal kann unter folgendem Link gefunden werden: [Lernjournal](/Lernjournal)
 
 <a name="planung"/>
 
