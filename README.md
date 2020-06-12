@@ -16,6 +16,8 @@
 
 ## Einleitung
 
+Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernten Fähigkeiten umzusetzten. Wir (Noah Ziltener und Nick Durrer) hatten die Idee ein Scrumboard mit MVVM zu erstellen.
+
 <a name="autor"/>
 
 ### Autor und Dokument
