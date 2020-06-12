@@ -26,13 +26,18 @@ namespace N_N_Scrumboard.Model
             set { _description = value; }
         }
 
-        /*private user _assinedTo;
+        private User _assinedTo;
 
-        public string AssinedTo
+        public User AssinedTo
         {
             get { return _assinedTo; }
 
             set { _assinedTo = value; }
-        }*/
+        }
+
+        public override string ToString()
+        {
+            return Title;
+        }
     }
 }

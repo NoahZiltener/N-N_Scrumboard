@@ -20,9 +20,12 @@ namespace N_N_Scrumboard.View
     /// </summary>
     public partial class Board : Window
     {
+        private readonly BoardViewModel _boardviewModel;
         public Board()
         {
             InitializeComponent();
+            _boardviewModel = new BoardViewModel();
+            DataContext = _boardviewModel;
         }
     }
 }
