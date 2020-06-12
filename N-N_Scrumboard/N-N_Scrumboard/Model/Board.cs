@@ -8,5 +8,6 @@ namespace N_N_Scrumboard.Model
 {
     class Board
     {
+        
     }
 }
