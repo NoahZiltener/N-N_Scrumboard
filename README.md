@@ -98,6 +98,7 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 - Assigned To Dropbox: Dort soll man zwischen allen User auswählen können wer diesen Task bearbeiten soll.
 - Title Textbox: In dieser Box soll der Titel für den Task festgelegt werden.
 - Description Textarea: In diesem Feld soll man den Task beschreiben können.
+- Save Button: Mit dem Save Button wird ein neuer Task erstellt.
 
 #### Create User
 ![Picture CreateUser](res/CreateNewUser.png)
@@ -105,6 +106,7 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 - Name Textbox: In dieser Textbox kann der Name des neuen User erfasst werden.
 - Job Textbox: In dieser Textbox wird der Job des Users erfasst.
 - Image Button: Beim Image Button soll sich der Explorer öffnen um ein Profilbild zu wählen.
+- Save Button: Mit dem Save Button wird ein neuer User erstellt.
 
 <a name="prototyp"/>
 
