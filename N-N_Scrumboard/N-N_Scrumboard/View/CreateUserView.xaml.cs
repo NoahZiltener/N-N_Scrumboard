@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace N_N_Scrumboard.View
 {
     /// <summary>
-    /// Interaction logic for CreateView.xaml
+    /// Interaction logic for CreateUserView.xaml
     /// </summary>
-    public partial class CreateView : Window
+    public partial class CreateUserView : Window
     {
-        public CreateView()
+        public CreateUserView()
         {
             InitializeComponent();
         }
