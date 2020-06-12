@@ -76,6 +76,7 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 | Create Task View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ✅ |
 | Create User View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ❌ |
 | Task erstellen Logik | Nick Durrer | 12/06/2020 | ❌ |
+| User erstellen Logik | Noah Ziltener | 12/06/2020 | ❌ |
 | Task Sortirung | Nick Durrer | 19/06/2020 | ❌ |
 | Drag and Drop von Scrum Board | Noah Ziltener | 19/06/2020 | ❌ |
 | Testen & Resüme | Noah Ziltener / Nick Durrer | 26/06/2020 | ❌ |
