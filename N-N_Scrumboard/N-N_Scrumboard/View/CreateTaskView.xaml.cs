@@ -1,4 +1,5 @@
-﻿using System;
+﻿using N_N_Scrumboard.ModelView;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,18 @@ namespace N_N_Scrumboard.View
     /// </summary>
     public partial class CreateTaskView : Window
     {
+        private readonly CreateTaskViewModel _CreateTaskviewModel;
         public CreateTaskView()
         {
             InitializeComponent();
+            _CreateTaskviewModel = new CreateTaskViewModel();
+            DataContext = _CreateTaskviewModel;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            _CreateTaskviewModel.CreateTask();
+            Close();
         }
     }
 }

@@ -18,14 +18,19 @@ namespace N_N_Scrumboard.View
     /// <summary>
     /// Interaction logic for main.xaml
     /// </summary>
-    public partial class Board : Window
+    public partial class BoardView : Window
     {
         private readonly BoardViewModel _boardviewModel;
-        public Board()
+        public BoardView()
         {
             InitializeComponent();
             _boardviewModel = new BoardViewModel();
             DataContext = _boardviewModel;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            _boardviewModel.CreateNewTask();
         }
     }
 }
