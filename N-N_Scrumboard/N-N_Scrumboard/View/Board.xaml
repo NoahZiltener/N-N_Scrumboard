@@ -59,13 +59,8 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="TODO" />
-<<<<<<< HEAD
-            <ListBox Grid.Row="1" Grid.Column="0" Name="ToDo" ItemsSource="{Binding ToDo}">
-=======
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
->>>>>>> e9fc5783d6a425e0ffd83e1de77d9d7e5b2c18eb
-            </ListBox>
+            <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="TODO"/>
+            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
         </Grid>
 
         <Grid Grid.Row="1" Grid.Column="1" Margin="0, 0, 10, 0">
