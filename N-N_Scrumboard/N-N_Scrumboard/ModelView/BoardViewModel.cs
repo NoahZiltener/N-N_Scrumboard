@@ -23,6 +23,9 @@ namespace N_N_Scrumboard.ModelView
             task2.Title = "Task2";
             task3.Title = "Task3";
             task4.Title = "Task4";
+            task1.AssinedTo = new User();
+            task1.AssinedTo.Name = "Franz jürgen Otto";
+            task1.Description = "ljkjslkfjlksdjflkjslkdfsdjflsjdflklsdfjlskdjflksdjflksdjflksjdflkjsdflksjlkfjsdlkfjslkfjsdjflksjflksjdflkjsdlkfjslkdfjlksdfj";
             _board.ToDo.Add(task1);
             _board.ToDo.Add(task2);
             _board.ToDo.Add(task3);

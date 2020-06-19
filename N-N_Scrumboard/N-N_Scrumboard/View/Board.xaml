@@ -6,9 +6,35 @@
         xmlns:local="clr-namespace:N_N_Scrumboard.View"
         mc:Ignorable="d"
         Title="Scrumboard" Height="550" Width="960" MinHeight="550" MinWidth="960">
+    <Window.Resources>
+        <DataTemplate x:Key="taskTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Margin="5">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="{Binding Path=Title, FallbackValue=Title}" Grid.Column="0" Grid.Row="0" TextBlock.FontWeight="Bold"/>
+                        <TextBlock Text="{Binding Path=AssinedTo.Name, FallbackValue=AssinedTo.Name}" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="0" TextBlock.FontWeight="Bold"/>
+                        <TextBlock Text="{Binding Path=Description, FallbackValue=Description}" Grid.Row="1" Grid.ColumnSpan="2" TextWrapping="Wrap"/>
+                    <Button Content="Edit" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="1"/>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
     <Grid Margin="15">
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/> 
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*" />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
@@ -34,7 +60,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="TODO" />
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo}">
+            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
             </ListBox>
         </Grid>
 
