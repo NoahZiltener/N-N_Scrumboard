@@ -82,8 +82,12 @@ Unser Lernjournal kann unter folgendem Link gefunden werden: [Lernjournal](/Lern
 | Scrumboard in XAML umsetzen | Nick Durrer | 05/06/2020 | ✅ |
 | Create Task View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ✅ |
 | Create User View in XAML umsetzen | Noah Ziltener | 05/06/2020 | ✅ |
-| Task erstellen Logik | Nick Durrer | 12/06/2020 | ❌ |
-| User erstellen Logik | Noah Ziltener | 12/06/2020 | ❌ |
+| Task Model erstellen | Nick Durrer | 12/06/2020 | ✅ |
+| User Model erstellen | Noah Ziltener | 12/06/2020 | ✅ |
+| Board Model erstellen | Noah Ziltener | 12/06/2020 | ✅ |
+| Tasks anzeigen Logik | Noah Ziltener & Nick Durrer | 12/06/2020 | ✅ |
+| Task erstellen Logik | Nick Durrer | 19/06/2020 | ❌ |
+| User erstellen Logik | Noah Ziltener | 19/06/2020 | ❌ |
 | Task Sortirung | Nick Durrer | 19/06/2020 | ❌ |
 | Drag and Drop von Scrum Board | Noah Ziltener | 19/06/2020 | ❌ |
 | Testen & Resüme | Noah Ziltener / Nick Durrer | 26/06/2020 | ❌ |
