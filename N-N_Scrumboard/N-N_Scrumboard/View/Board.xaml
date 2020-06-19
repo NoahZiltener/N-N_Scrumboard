@@ -61,7 +61,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="TODO" />
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
+            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Button.Click="ButtonDel"/>
         </Grid>
 
         <Grid Grid.Row="1" Grid.Column="1" Margin="0, 0, 10, 0">
