@@ -32,5 +32,11 @@ namespace N_N_Scrumboard.View
         {
             _boardviewModel.CreateNewTask();
         }
+
+        private void ButtonDel(object sender, RoutedEventArgs e)
+        {
+            DataTemplate test = sender as DataTemplate;
+            Console.WriteLine(test.GetType());
+        }
     }
 }

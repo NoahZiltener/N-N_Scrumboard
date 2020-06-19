@@ -48,6 +48,11 @@ namespace N_N_Scrumboard.ModelView
             createTaskView.ShowDialog();
         }
 
+        public void DeleteTask()
+        {
+
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChange(string propertyName)
