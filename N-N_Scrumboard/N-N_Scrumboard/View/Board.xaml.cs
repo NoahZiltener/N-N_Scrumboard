@@ -29,14 +29,15 @@ namespace N_N_Scrumboard.View
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
+        { 
             _boardviewModel.CreateNewTask();
         }
 
         private void ButtonDel(object sender, RoutedEventArgs e)
         {
-            DataTemplate test = sender as DataTemplate;
-            Console.WriteLine(test.GetType());
+            Model.Task selectedTask = (sender as Button).DataContext as Model.Task;
+            _boardviewModel.DeleteTask(selectedTask);
+
         }
     }
 }

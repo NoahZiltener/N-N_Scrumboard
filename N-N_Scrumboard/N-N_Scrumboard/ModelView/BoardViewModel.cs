@@ -48,9 +48,9 @@ namespace N_N_Scrumboard.ModelView
             createTaskView.ShowDialog();
         }
 
-        public void DeleteTask()
+        public void DeleteTask(Task task)
         {
-
+            _board.ToDo.Remove(task);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
