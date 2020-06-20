@@ -28,7 +28,7 @@ namespace N_N_Scrumboard.View
             DataContext = _boardviewModel;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void OpenNewTask(object sender, RoutedEventArgs e)
         { 
             _boardviewModel.CreateNewTask();
         }
@@ -38,6 +38,11 @@ namespace N_N_Scrumboard.View
             Model.Task selectedTask = (sender as Button).DataContext as Model.Task;
             _boardviewModel.DeleteTask(selectedTask);
 
+        }
+
+        private void OpenNewUser(object sender, RoutedEventArgs e)
+        {
+            _boardviewModel.CreateNewUser();
         }
     }
 }

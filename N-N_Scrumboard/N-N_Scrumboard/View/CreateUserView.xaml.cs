@@ -1,4 +1,5 @@
-﻿using System;
+﻿using N_N_Scrumboard.ModelView;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,19 @@ namespace N_N_Scrumboard.View
     /// </summary>
     public partial class CreateUserView : Window
     {
+
+        private readonly CreateUserViewModel _CreateUserViewModel;
         public CreateUserView()
         {
             InitializeComponent();
+            _CreateUserViewModel = new CreateUserViewModel();
+            DataContext = _CreateUserViewModel;
+        }
+
+        private void CreateNewUser(object sender, RoutedEventArgs e)
+        {
+            _CreateUserViewModel.CreateUser();
+            Close();
         }
     }
 }

@@ -18,8 +18,6 @@ namespace N_N_Scrumboard.ModelView
         {
             _board = Board.getInstance();
             _task = new Task();
-            _task.AssinedTo = new User();
-            _task.AssinedTo.Name = "Noah Ziltener";
         }
 
         public String Title
@@ -46,6 +44,24 @@ namespace N_N_Scrumboard.ModelView
                     OnPropertyChange("Description");
                 }
             }
+        }
+
+        public User AssinedTo
+        {
+            get { return _task.AssinedTo; }
+            set
+            {
+                if (_task.AssinedTo != value)
+                {
+                    _task.AssinedTo = value;
+                    OnPropertyChange("AssinedTo");
+                }
+            }
+        }
+
+        public List<User> Users
+        {
+            get { return _board.Users; }
         }
 
         public void CreateTask()

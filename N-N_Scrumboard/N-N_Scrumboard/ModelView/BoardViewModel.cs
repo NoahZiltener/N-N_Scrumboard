@@ -42,10 +42,17 @@ namespace N_N_Scrumboard.ModelView
             get { return _board.ToDo; }
         }
 
+
         public void CreateNewTask() 
         {
             CreateTaskView createTaskView = new CreateTaskView();
             createTaskView.ShowDialog();
+        }
+
+        public void CreateNewUser()
+        {
+            CreateUserView createUserView = new CreateUserView();
+            createUserView.ShowDialog();
         }
 
         public void DeleteTask(Task task)

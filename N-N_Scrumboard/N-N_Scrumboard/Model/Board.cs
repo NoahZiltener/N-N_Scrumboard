@@ -14,6 +14,7 @@ namespace N_N_Scrumboard.Model
         private ObservableCollection<Task> _inprogress;
         private ObservableCollection<Task> _review;
         private ObservableCollection<Task> _done;
+        private List<User> _users;
 
         private Board() 
         {
@@ -21,6 +22,13 @@ namespace N_N_Scrumboard.Model
             InProgress = new ObservableCollection<Task>();
             Review = new ObservableCollection<Task>();
             Done = new ObservableCollection<Task>();
+            Users = new List<User>();
+        }
+
+        public List<User> Users
+        {
+            get { return _users; }
+            set { _users = value; }
         }
 
         public ObservableCollection<Task> ToDo
