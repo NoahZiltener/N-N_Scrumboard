@@ -50,7 +50,22 @@ namespace N_N_Scrumboard.ModelView
 
         public void DeleteTask(Task task)
         {
-            _board.ToDo.Remove(task);
+            if (_board.ToDo.Contains(task))
+            {
+                _board.ToDo.Remove(task);
+            }
+            else if (_board.InProgress.Contains(task)) 
+            {
+                _board.InProgress.Remove(task);
+            }
+            else if (_board.Review.Contains(task))
+            {
+                _board.Review.Remove(task);
+            }
+            else if (_board.Done.Contains(task))
+            {
+                _board.Done.Remove(task);
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

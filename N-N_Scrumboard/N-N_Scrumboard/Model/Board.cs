@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace N_N_Scrumboard.Model
 {
@@ -12,16 +11,16 @@ namespace N_N_Scrumboard.Model
         private static Board _board = null;
 
         private ObservableCollection<Task> _todo;
-        private List<Task> _inprogress;
-        private List<Task> _review;
-        private List<Task> _done;
+        private ObservableCollection<Task> _inprogress;
+        private ObservableCollection<Task> _review;
+        private ObservableCollection<Task> _done;
 
         private Board() 
         {
             ToDo = new ObservableCollection<Task>();
-            InProgress = new List<Task>();
-            Review = new List<Task>();
-            Done = new List<Task>();
+            InProgress = new ObservableCollection<Task>();
+            Review = new ObservableCollection<Task>();
+            Done = new ObservableCollection<Task>();
         }
 
         public ObservableCollection<Task> ToDo
@@ -30,19 +29,19 @@ namespace N_N_Scrumboard.Model
             set { _todo = value; }
         }
 
-        public List<Task> InProgress
+        public ObservableCollection<Task> InProgress
         {
             get { return _inprogress; }
             set { _inprogress = value; }
         }
 
-        public List<Task> Review
+        public ObservableCollection<Task> Review
         {
             get { return _review; }
             set { _review = value; }
         }
 
-        public List<Task> Done
+        public ObservableCollection<Task> Done
         {
             get { return _done; }
             set { _done = value; }
