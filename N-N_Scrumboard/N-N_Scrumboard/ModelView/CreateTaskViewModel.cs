@@ -66,8 +66,7 @@ namespace N_N_Scrumboard.ModelView
 
         public void CreateTask()
         {
-            _board.ToDo.Add(_task);
-
+                _board.ToDo.Add(_task);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

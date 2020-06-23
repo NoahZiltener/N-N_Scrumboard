@@ -30,8 +30,15 @@ namespace N_N_Scrumboard.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            _CreateTaskviewModel.CreateTask();
-            Close();
+            if(String.IsNullOrEmpty(Title.Text) || String.IsNullOrEmpty(Description.Text))
+            {
+                MessageBox.Show("Please write a Title and a Description.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            {
+                _CreateTaskviewModel.CreateTask();
+                Close();
+            }
         }
     }
 }

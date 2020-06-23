@@ -28,7 +28,7 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Content="Name:"/>
-            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox Name="Name" Grid.Row="0" Grid.Column="1" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
         <Grid Grid.Row="2" Grid.Column="0" Margin="0,0,0,10">
             <Grid.RowDefinitions>
@@ -39,7 +39,7 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Content="Job:"/>
-            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Job, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Name="Job" Grid.Row="0" Grid.Column="1" Text="{Binding Job, UpdateSourceTrigger=PropertyChanged}" />
         </Grid>
         <Grid Grid.Row="3" Grid.Column="0">
             <Grid.RowDefinitions>

@@ -31,8 +31,15 @@ namespace N_N_Scrumboard.View
 
         private void CreateNewUser(object sender, RoutedEventArgs e)
         {
-            _CreateUserViewModel.CreateUser();
-            Close();
+            if(String.IsNullOrEmpty(Name.Text) || String.IsNullOrEmpty(Job.Text))
+            {
+                MessageBox.Show("Please enter a Name and Job.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            {
+                _CreateUserViewModel.CreateUser();
+                Close();
+            }
         }
     }
 }

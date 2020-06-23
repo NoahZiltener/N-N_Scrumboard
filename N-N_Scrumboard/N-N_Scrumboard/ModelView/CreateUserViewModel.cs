@@ -60,6 +60,5 @@ namespace N_N_Scrumboard.ModelView
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
-
     }
 }

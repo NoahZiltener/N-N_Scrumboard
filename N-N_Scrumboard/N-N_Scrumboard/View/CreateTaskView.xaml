@@ -28,7 +28,7 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Content="Title:"/>
-            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox Name="Title" Grid.Row="0" Grid.Column="1" Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
         <Grid Grid.Row="2" Grid.Column="0" Margin="0,0,0,10">
             <Grid.RowDefinitions>
@@ -55,13 +55,13 @@
             <Grid.RowDefinitions>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBox AcceptsReturn="True" TextWrapping="Wrap" VerticalAlignment="Stretch" Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox Name="Description" AcceptsReturn="True" TextWrapping="Wrap" VerticalAlignment="Stretch" Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
         <Grid Grid.Row="5" Grid.Column="0">
             <Grid.RowDefinitions>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button Content="Save" Margin="0, 10, 10, 0" Height="40" Width="80" HorizontalAlignment="Right" Click="Button_Click"/>
+            <Button IsEnabled="{Binding TaskValid}" Content="Save" Margin="0, 10, 10, 0" Height="40" Width="80" HorizontalAlignment="Right" Click="Button_Click"/>
         </Grid>
 
     </Grid>
