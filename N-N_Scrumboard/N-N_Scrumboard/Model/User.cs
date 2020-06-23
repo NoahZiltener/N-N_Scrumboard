@@ -33,7 +33,7 @@ namespace N_N_Scrumboard.Model
 
         public override string ToString()
         {
-            return Name + Job;
+            return Name + ", " + Job;
         }
     }
 }
