@@ -40,6 +40,27 @@ namespace N_N_Scrumboard.ModelView
         public ObservableCollection<Task> ToDo 
         {
             get { return _board.ToDo; }
+            set
+            {
+                if (_board.ToDo != value)
+                {
+                    _board.ToDo = value;
+                    OnPropertyChange("ToDo");
+                }
+            }
+        }
+
+        public ObservableCollection<Task> ToDInProgresso
+        {
+            get { return _board.InProgress; }
+            set
+            {
+                if (_board.InProgress != value)
+                {
+                    _board.InProgress = value;
+                    OnPropertyChange("InProgress");
+                }
+            }
         }
 
 

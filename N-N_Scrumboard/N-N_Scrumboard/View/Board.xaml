@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:N_N_Scrumboard.View"
+        xmlns:dd="urn:gong-wpf-dragdrop"
         mc:Ignorable="d"
         Title="Scrumboard" Height="550" Width="960" MinHeight="550" MinWidth="960">
     <Window.Resources>
@@ -61,7 +62,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="TODO" />
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
+            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo, UpdateSourceTrigger=PropertyChanged}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True"/>
         </Grid>
 
         <Grid Grid.Row="1" Grid.Column="1" Margin="0, 0, 10, 0">
@@ -74,7 +75,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="IN PROGRESS"/>
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding InProgress}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding InProgress, UpdateSourceTrigger=PropertyChanged}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
             </ListBox>
         </Grid>
 
@@ -88,7 +89,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="REVIEW"/>
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Review}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Review}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
             </ListBox>
         </Grid>
 
@@ -102,7 +103,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="DONE"/>
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Done}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Done}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
             </ListBox>
         </Grid>
 

@@ -1,6 +1,8 @@
 ﻿using N_N_Scrumboard.ModelView;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +22,9 @@ namespace N_N_Scrumboard.View
     /// </summary>
     public partial class BoardView : Window
     {
+        Point LB1StartMousePos;
+        Point LB2StartMousePos;
+
         private readonly BoardViewModel _boardviewModel;
         public BoardView()
         {
@@ -44,5 +49,6 @@ namespace N_N_Scrumboard.View
         {
             _boardviewModel.CreateNewUser();
         }
+        
     }
 }
