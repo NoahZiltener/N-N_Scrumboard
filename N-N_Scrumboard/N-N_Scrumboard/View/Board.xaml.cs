@@ -22,8 +22,6 @@ namespace N_N_Scrumboard.View
     /// </summary>
     public partial class BoardView : Window
     {
-        Point LB1StartMousePos;
-        Point LB2StartMousePos;
 
         private readonly BoardViewModel _boardviewModel;
         public BoardView()
@@ -49,6 +47,22 @@ namespace N_N_Scrumboard.View
         {
             _boardviewModel.CreateNewUser();
         }
-        
+
+        private void ButtonEdit(object sender, RoutedEventArgs e)
+        {
+            Model.Task selectedTask = (sender as Button).DataContext as Model.Task;
+            _boardviewModel.EditTask(selectedTask);
+            UpdateListBox(Todo);
+            UpdateListBox(InProgress);
+            UpdateListBox(Review);
+            UpdateListBox(Done);
+        }
+
+        private void UpdateListBox(ListBox listBox)
+        {
+            ObservableCollection<Model.Task> itemSource = listBox.ItemsSource as ObservableCollection<Model.Task>;
+            listBox.ItemsSource = null;
+            listBox.ItemsSource = itemSource;
+        }
     }
 }

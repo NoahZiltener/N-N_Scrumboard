@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace N_N_Scrumboard.Model
 {
-    class User
+    public class User
     {
         private string _name;
         private string _job;

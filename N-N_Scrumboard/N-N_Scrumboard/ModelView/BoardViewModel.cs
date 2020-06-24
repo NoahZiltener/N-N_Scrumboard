@@ -122,6 +122,12 @@ namespace N_N_Scrumboard.ModelView
             }
         }
 
+        public void EditTask(Task task)
+        {
+            CreateTaskView createTaskView = new CreateTaskView(task);
+            createTaskView.ShowDialog();
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChange(string propertyName)

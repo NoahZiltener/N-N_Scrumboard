@@ -20,6 +20,19 @@ namespace N_N_Scrumboard.ModelView
             _task = new Task();
         }
 
+        public Task Task
+        {
+            get { return _task; }
+            set
+            {
+                if (_task != value)
+                {
+                    _task = value;
+                    OnPropertyChange("Task");
+                }
+            }
+        }
+
         public String Title
         {
             get { return _task.Title; }
@@ -66,7 +79,10 @@ namespace N_N_Scrumboard.ModelView
 
         public void CreateTask()
         {
+            if(!(_board.ToDo.Contains(_task) || _board.InProgress.Contains(_task) || _board.Review.Contains(_task) || _board.Done.Contains(_task)))
+            {
                 _board.ToDo.Add(_task);
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

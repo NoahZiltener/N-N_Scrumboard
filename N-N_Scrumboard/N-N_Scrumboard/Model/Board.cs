@@ -6,7 +6,7 @@ using System.Text;
 
 namespace N_N_Scrumboard.Model
 {
-    class Board
+    public class Board
     {
         private static Board _board = null;
 

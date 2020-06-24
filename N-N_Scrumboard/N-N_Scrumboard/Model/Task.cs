@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace N_N_Scrumboard.Model
 {
-    class Task
+    public class Task
     { 
         private string _title;
 

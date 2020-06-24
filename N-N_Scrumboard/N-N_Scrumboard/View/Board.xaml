@@ -25,9 +25,9 @@
                             <RowDefinition Height="auto" />
                         </Grid.RowDefinitions>
                         <TextBlock Text="{Binding Path=Title, FallbackValue=Title}" Grid.Column="0" Grid.Row="0" TextBlock.FontWeight="Bold"/>
-                        <TextBlock Text="{Binding Path=AssinedTo.Name, FallbackValue=AssinedTo.Name}" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="0" TextBlock.FontWeight="Bold"/>
+                        <TextBlock Text="{Binding Path=AssinedTo.Name, FallbackValue = ''}" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="0" TextBlock.FontWeight="Bold"/>
                         <TextBlock Text="{Binding Path=Description, FallbackValue=Description}" Grid.Row="1" Grid.ColumnSpan="2" TextWrapping="Wrap"/>
-                    <Button Content="Edit" HorizontalAlignment="Left" Grid.Row="2" Grid.Column="0"/>
+                    <Button Content="Edit" HorizontalAlignment="Left" Grid.Row="2" Grid.Column="0" Click="ButtonEdit"/>
                         <Button Content="Delete" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="1" Click="ButtonDel"/>
                     </Grid>
                 </StackPanel>
@@ -62,7 +62,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="TODO" />
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo, UpdateSourceTrigger=PropertyChanged}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True"/>
+            <ListBox Name="Todo" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding ToDo, UpdateSourceTrigger=PropertyChanged}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True"/>
         </Grid>
 
         <Grid Grid.Row="1" Grid.Column="1" Margin="0, 0, 10, 0">
@@ -75,7 +75,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="IN PROGRESS"/>
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding InProgress, UpdateSourceTrigger=PropertyChanged}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
+            <ListBox Name="InProgress" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding InProgress, UpdateSourceTrigger=PropertyChanged}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
             </ListBox>
         </Grid>
 
@@ -89,7 +89,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="REVIEW"/>
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Review, UpdateSourceTrigger=PropertyChanged }" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
+            <ListBox Name="Review" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Review, UpdateSourceTrigger=PropertyChanged }" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
             </ListBox>
         </Grid>
 
@@ -103,7 +103,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox BorderThickness="0" IsReadOnly="True" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="DONE"/>
-            <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Done, UpdateSourceTrigger=PropertyChanged}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
+            <ListBox Name="Done" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Done, UpdateSourceTrigger=PropertyChanged}" ItemTemplate="{DynamicResource taskTemplate}" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="True">
             </ListBox>
         </Grid>
 

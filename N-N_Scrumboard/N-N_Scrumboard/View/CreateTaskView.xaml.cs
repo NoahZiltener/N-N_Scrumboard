@@ -28,6 +28,14 @@ namespace N_N_Scrumboard.View
             DataContext = _CreateTaskviewModel;
         }
 
+        public CreateTaskView(Model.Task task)
+        {
+            InitializeComponent();
+            _CreateTaskviewModel = new CreateTaskViewModel();
+            DataContext = _CreateTaskviewModel;
+            _CreateTaskviewModel.Task = task;
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if(String.IsNullOrEmpty(Title.Text) || String.IsNullOrEmpty(Description.Text))
