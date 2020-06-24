@@ -50,7 +50,7 @@ namespace N_N_Scrumboard.ModelView
             }
         }
 
-        public ObservableCollection<Task> ToDInProgresso
+        public ObservableCollection<Task> InProgress
         {
             get { return _board.InProgress; }
             set
@@ -59,6 +59,32 @@ namespace N_N_Scrumboard.ModelView
                 {
                     _board.InProgress = value;
                     OnPropertyChange("InProgress");
+                }
+            }
+        }
+
+        public ObservableCollection<Task> Review
+        {
+            get { return _board.Review; }
+            set
+            {
+                if (_board.Review != value)
+                {
+                    _board.Review = value;
+                    OnPropertyChange("Review");
+                }
+            }
+        }
+
+        public ObservableCollection<Task> Done
+        {
+            get { return _board.Done; }
+            set
+            {
+                if (_board.Done != value)
+                {
+                    _board.Done = value;
+                    OnPropertyChange("Done");
                 }
             }
         }
