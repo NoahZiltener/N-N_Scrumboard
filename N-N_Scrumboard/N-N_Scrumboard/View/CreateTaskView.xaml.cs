@@ -31,6 +31,7 @@ namespace N_N_Scrumboard.View
         public CreateTaskView(Model.Task task)
         {
             InitializeComponent();
+            PageTitle.Content = "Edit User";
             _CreateTaskviewModel = new CreateTaskViewModel();
             DataContext = _CreateTaskviewModel;
             _CreateTaskviewModel.Task = task;
