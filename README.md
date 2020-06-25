@@ -10,6 +10,7 @@
   * [UseCase Diagram](#udiagramm)
   * [Mockups](#mockups)
   * [Prototyp](#prototyp)
+  * [Klassendiagramm](#klassendiagramm)
 * [Testing](#testing)
   * [Testfälle](#testfaelle)
   * [Testprotokoll](#testprotokoll)
@@ -131,6 +132,13 @@ Um das MVVM Patern besser kennen zu lernen haben wir uns folgende zwei Tutorials
 | ----- | ------------ |
 | https://riptutorial.com/mvvm | Das Tutorial war ein guter Einstieg für unser Projekt. Wir haben es beide parallel gemacht. Bei Noah hat es ganz am Schluss des Tutorials Errors gegeben. Es gab Problemme mit dem XAML Code. Wir konnte das Problem nicht lösen was ein bischen frustrierent war. Noah hat dan am Schluss das Projekt von Nick genommen und es hat alles Funktioniert. Das Tutorial war gut erklärt wie MVVM aufgebaut ist und wie man es umsetzen muss. Das Programm hatte aber keine funktion also haben wir uns noch ein anders Tutorial gesucht.|
 | https://riptutorial.com/wpf/example/992/basic-mvvm-example-using-wpf-and-csharp | In diesem Tutorial wurde weniger beschrieben wie MVVM funktioniert, sondern mehr einfach Code vorgegeben. Wir haben den Programmcode abgeschrieben und haben ihn analysiert. Wir haben uns gegenseitig unterstütz und versucht den Code zu verstehen und erklären. Ausserdem haben wir auch einen Unterschied zu dem ersten Tutoriel gefunden z.B. bei der OnPropertyChange Methode. Wir fanden das beim zweiten Prototyp mehr Funktionen vorhanden war und man mehr das Prinzip von Databinding zu verstehen.|
+
+<a name="klassendiagramm"/>
+
+## Klassendiagramm
+
+![Picture Klassendiagramm](res/Klassendiagramm.png)
+
 <a name="testing"/>
 
 ### Testfälle
