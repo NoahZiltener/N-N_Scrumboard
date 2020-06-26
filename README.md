@@ -152,6 +152,7 @@ Um das MVVM Patern besser kennen zu lernen haben wir uns folgende zwei Tutorials
 | ----- | ------------ |
 | https://riptutorial.com/mvvm | Das Tutorial war ein guter Einstieg für unser Projekt. Wir haben es beide parallel gemacht. Bei Noah hat es ganz am Schluss des Tutorials Errors gegeben. Es gab Problemme mit dem XAML Code. Wir konnte das Problem nicht lösen was ein bischen frustrierent war. Noah hat dan am Schluss das Projekt von Nick genommen und es hat alles Funktioniert. Das Tutorial war gut erklärt wie MVVM aufgebaut ist und wie man es umsetzen muss. Das Programm hatte aber keine funktion also haben wir uns noch ein anders Tutorial gesucht.|
 | https://riptutorial.com/wpf/example/992/basic-mvvm-example-using-wpf-and-csharp | In diesem Tutorial wurde weniger beschrieben wie MVVM funktioniert, sondern mehr einfach Code vorgegeben. Wir haben den Programmcode abgeschrieben und haben ihn analysiert. Wir haben uns gegenseitig unterstütz und versucht den Code zu verstehen und erklären. Ausserdem haben wir auch einen Unterschied zu dem ersten Tutoriel gefunden z.B. bei der OnPropertyChange Methode. Wir fanden das beim zweiten Prototyp mehr Funktionen vorhanden war und man mehr das Prinzip von Databinding zu verstehen.|
+| https://github.com/AngryCarrot789/drag-listitems-between-listboxes/blob/master/test/MainWindow.xaml.cs / https://www.c-sharpcorner.com/uploadfile/dpatra/drag-and-drop-item-in-listbox-in-wpf/ /  https://www.telerik.com/blogs/adding-drag-and-drop-to-wpf-listboxes-thanks-telerik! / https://www.youtube.com/watch?v=uL4GtYs-JIA| Diese mehreren Tutorials waren für das Drag and Drop. Obwohl wir diese Tutorials Schritt für Schirtt befolgt haben, haben sie uns zum Thema Drag and Drop nicht weitergebracht. Schlussendlich hat das uns nur in unserem Zeitplan zurückgeschlagen. |
 
 <a name="klassendiagramm"/>
 
@@ -200,3 +201,17 @@ Beim testen unserer Applikation sind uns noch ein paar Sachen aufgefallen welche
 
 
 <a name="resüme"/>
+
+## Resüme
+
+### Projekt
+
+Zu guter letzt noch ein kleines Resüme von uns. Im grossen und ganzen hat uns das Projekt spass gemacht und wir konnten etwas davon profitieren. Wir fanden eigentlich diese Idee von einem Gruppenprojekt sehr gut, doch sind wir der Meinung das die Aufgabenstellung ein wenig unklar war, da so zu sagen jeder machen konnte was er wollte. Das genaue Ziel des Projektes war uns ein wenig unklar und wir wussten nicht wie viel Arbeit wir für dieses Projekt aufwenden müssen. Da wir beide in der letzten Zeit eigentlich nurnoch mit Webframeworks gearbeitet haben, war es am Anfang ein starkes umgewöhnen vom arbeiten. Die Entwicklungsumgebung Visual Studio hat uns nicht wirklich zugesagt und wir hatten einige Probleme wegen ihr was uns Zeit gekostet hat. Doch sind wir stolz was wir erreicht haben mit unserem Projekt. Wir konnten uns gut über die Tutorials welche wir im Internet gefunden haben einarbeiten. Eine der grössten Schwierigkeit hat uns das Drag and Drop verrursacht. Beim Drag and Drop haben wir uns diverse Turorials angeschaut und dann auch ausprobiert aber leider hat nichts geholfen. Bis wir dann auf ein Nuget-Packet gestossen sind welches diese Funktion für uns abgenommen hat. Ausserdem hat uns das WPF Framework nicht so zugesagt, da andere Frameworks simpler Aufgebaut sind, zum Beispiel Angular/React.
+
+### Teamarbeit
+
+Uns ist die Teamarbeit nicht schwer gefallen, da wir schon in diversen Projekten zusammengearbeitet haben und uns gegenseitig sehr gut ergänzen. Die Arbeit mit Git ist wiedermal ein voller Erfolg gewesen, obwohl es einige mal Aktualisierungsschwierigkeiten von seitens Visual Studio gekommen sind. Gerne würden wir wieder Zusammen so ein Projekt machen.
+
+### Learnings
+
+Wir haben sehr viel zum Thema MVVM gelernt, wie diese Technologie aufgebaut ist und wie sie funktioniert. Zudem haben wir, dem von uns nicht bekannten, Framework WPF gelernt und unsere C# Kenntnisse verbessert. Bei der nächsten Projektarbeit würden wir ein für uns passenderes Framework wählen, da wir beide doch nicht so grösse Fans von WPF und Visual Studio sind.
