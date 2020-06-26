@@ -13,7 +13,6 @@
   * [Prototyp](#prototyp)
   * [Klassendiagramm](#klassendiagramm)
 * [Testing](#testing)
-  * [Testfälle](#testfaelle)
   * [Testprotokoll](#testprotokoll)
 
 <a name="einleitung"/>
@@ -171,10 +170,7 @@ Wir haben auch wieder 3 Views. Die erste View ist unser Board wo alles angezeigt
 
 <a name="testing"/>
 
-### Testfälle
-
-<a name="testfaelle"/>
-
+## Testing
 
 <a name="testprotokoll"/>
 
