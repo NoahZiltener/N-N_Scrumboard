@@ -87,10 +87,10 @@ Unser Lernjournal kann unter folgendem Link gefunden werden: [Lernjournal](/Lern
 | User Model erstellen | Noah Ziltener | 12/06/2020 | ✅ |
 | Board Model erstellen | Noah Ziltener | 12/06/2020 | ✅ |
 | Tasks anzeigen Logik | Noah Ziltener & Nick Durrer | 12/06/2020 | ✅ |
-| Task erstellen Logik | Nick Durrer | 19/06/2020 | ❌ |
-| User erstellen Logik | Noah Ziltener | 19/06/2020 | ❌ |
+| Task erstellen Logik | Nick Durrer | 19/06/2020 | ✅ |
+| User erstellen Logik | Noah Ziltener | 19/06/2020 | ✅ |
 | Task Sortirung | Nick Durrer | 19/06/2020 | ❌ |
-| Drag and Drop von Scrum Board | Noah Ziltener | 19/06/2020 | ❌ |
+| Drag and Drop von Scrum Board | Noah Ziltener | 19/06/2020 | ✅ |
 | Testen & Resüme | Noah Ziltener / Nick Durrer | 26/06/2020 | ❌ |
 
 <a name="udiagramm"/>
@@ -135,9 +135,20 @@ Um das MVVM Patern besser kennen zu lernen haben wir uns folgende zwei Tutorials
 
 <a name="klassendiagramm"/>
 
-## Klassendiagramm
+### Klassendiagramm
 
 ![Picture Klassendiagramm](res/Klassendiagramm.png)
+
+#### Models
+Wir haben 3 Modelle. Das Board ist eine Singleton Klasse, welche 4 ObservableCollection's enthält in denen alle Tasks gespeichert sind. Ausserdem ist eine Liste mit allen erstellten User enthalten. Das Model für die Tasks entählt eine Referenz auf den zugeteilten User.
+
+#### ViewModels
+Wir haben für jede View ein ViewModel. Das ViewModel für das Board enthält die Referenz auf das Board Model. Das ViewModel ruft auch die Fenster für User und Task erstellen auf. 
+Die ViewModels für das erstellen funktionierne ziemlich gleich. Sie habe beide die Referenz des Board Model und eine Membervariabel für ein Task oder ein User. Die View und das ViewModel vom taskerstellen werden aber auch noch dazu gebraucht um ein Task zu bearbeiten.
+
+#### View
+Wir haben auch wieder 3 Views. Die erste View ist unser Board wo alles angezeigt wird. Von dieser View werden dann die Views zum User und Task erstellen aufgerufen. Die einige logik die es Hier gibt ist um dei Butten CLicks abzufagne und an die ViewModels weiterzugeben. Die View die für das Task erstellen zu ständig ist hat zwei Konstruktoren. Der Erweiterte konstuktor erlaubt die View mit einem schon bestehenden Task zu laden um den Task zu bearbeiten.
+
 
 <a name="testing"/>
 
