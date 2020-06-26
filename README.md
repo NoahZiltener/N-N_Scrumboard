@@ -5,6 +5,7 @@
   * [Autor](#autor)
   * [Projekt](#projekt)
   * [Lernjournal](#lernjournal)
+* [Funktionen](#funktionen)
 * [Planung](#planung)
   * [User Stories](#userstory)
   * [UseCase Diagram](#udiagramm)
@@ -40,6 +41,24 @@ Unser Ziel mit diesem kleinen Projekt vom Modul 120 ist es die bis jetzt gelernt
 Unser Lernjournal kann unter folgendem Link gefunden werden: [Lernjournal](/Lernjournal)
 
 <a name="planung"/>
+
+<a name="funktionen"/>
+
+## Funktionen
+In der Tabele ist ersichtlich welche Funktionen umgesetz wurden und welche nicht.
+| Feature | Status | Beschreibung                      |
+| ----------- | ------ | --------------------------------- | 
+| Task erstellen |✅| Task kann mitels Dialog erstellt werden |
+| Task anzeigen |✅| Tasks werden auf dem Board angezeigt |
+| Task bearbeiten |✅| Task kann mitels Dialog bearbeiten werden |
+| Task löschen |✅| Task kann mitels Button gelöscht werden |
+| Task filtern |❌| Dieses Feature konnten wir leider zeitlich gesehen nicht mehr umsetzen, da wir uns lieber auf das Drag and Drop fokusiert haben.  |
+| User erstellen |✅| User kann mitels Dialog erstellt werden |
+| User bearbeiten |❌| Dieses Feature konnten wir leider zeitlich gesehen nicht mehr umsetzen, da wir uns lieber auf das Drag and Drop fokusiert haben. |
+| Drag and Drop |✅| Tasks können mitels Drag and Drop verschoben werden |
+| Responsive |✅| Das Board bietet ein responives Design an |
+
+Meine eigene Idee war bei der Verbindungssuche ein Button einzubauen. Der Button den Inhalt der beiden Textboxen.
 
 ## Planung
 
