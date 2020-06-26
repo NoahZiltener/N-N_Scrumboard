@@ -14,6 +14,8 @@
   * [Klassendiagramm](#klassendiagramm)
 * [Testing](#testing)
   * [Testprotokoll](#testprotokoll)
+  * [Bugs](#bugs)
+* [Resüme](#resüme)
 
 <a name="einleitung"/>
 
@@ -185,4 +187,16 @@ Wir haben auch wieder 3 Views. Die erste View ist unser Board wo alles angezeigt
 | Wenn ich einen zuvor erstellten Task packe, kann ich ihn in eine andere Tabelle via Drag and Drop verschieben. | Noah Ziltener | 26.06.2020 |✅ |
 | Wenn ich das Fenster vergrössere passen sich die Elemente an (Responsive Desgin).| Nick Durrer | 26.06.2020 |✅|  
 
+<a name="bugs"/>
 
+### Bugs
+
+Beim testen unserer Applikation sind uns noch ein paar Sachen aufgefallen welche wir hier notiert haben.
+
+| Bug Beschreibung |
+| ----------- |
+| Wenn man beim erstellen eines Tasks einen zu Langen Text eingibt in die Beschreibung gibt, kann der Edit und Delete Button nicht mehr erreicht werden, da er nach unten gedrück wird. |
+| Der gleiche Bug wie oben genannt, tritt natürlich auch auf wenn man den Task bearbeitet. |
+
+
+<a name="resüme"/>
