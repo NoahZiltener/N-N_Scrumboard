@@ -25,6 +25,13 @@ namespace N_N_Scrumboard.Model
             Users = new List<User>();
         }
 
+        public static Board getInstance()
+        {
+            if (_board == null)
+                _board = new Board();
+            return _board;
+        }
+
         public List<User> Users
         {
             get { return _users; }
@@ -54,13 +61,5 @@ namespace N_N_Scrumboard.Model
             get { return _done; }
             set { _done = value; }
         }
-
-        public static Board getInstance()
-        {
-            if (_board == null)
-                _board = new Board();
-            return _board;
-        }
-
     }
 }

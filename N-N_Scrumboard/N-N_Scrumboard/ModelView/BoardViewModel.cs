@@ -70,6 +70,10 @@ namespace N_N_Scrumboard.ModelView
             }
         }
 
+        public List<User> Users
+        {
+            get { return _board.Users; }
+        }
 
         public void CreateNewTask() 
         {
@@ -77,10 +81,10 @@ namespace N_N_Scrumboard.ModelView
             createTaskView.ShowDialog();
         }
 
-        public void CreateNewUser()
+        public void EditTask(Task task)
         {
-            CreateUserView createUserView = new CreateUserView();
-            createUserView.ShowDialog();
+            CreateTaskView createTaskView = new CreateTaskView(task);
+            createTaskView.ShowDialog();
         }
 
         public void DeleteTask(Task task)
@@ -103,10 +107,10 @@ namespace N_N_Scrumboard.ModelView
             }
         }
 
-        public void EditTask(Task task)
+        public void CreateNewUser()
         {
-            CreateTaskView createTaskView = new CreateTaskView(task);
-            createTaskView.ShowDialog();
+            CreateUserView createUserView = new CreateUserView();
+            createUserView.ShowDialog();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -118,7 +122,5 @@ namespace N_N_Scrumboard.ModelView
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
-
-
     }
 }

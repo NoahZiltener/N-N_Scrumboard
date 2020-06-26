@@ -11,7 +11,6 @@ namespace N_N_Scrumboard.Model
     {
         private string _name;
         private string _job;
-        private Bitmap _image;
 
         public string Name 
         {
@@ -23,12 +22,6 @@ namespace N_N_Scrumboard.Model
         {
             get { return _job; }
             set { _job = value; }
-        }
-
-        public Bitmap Image
-        {
-            get { return _image; }
-            set { _image = value; }
         }
 
         public override string ToString()

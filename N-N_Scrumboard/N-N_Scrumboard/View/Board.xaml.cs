@@ -1,11 +1,11 @@
-﻿using N_N_Scrumboard.ModelView;
+﻿using N_N_Scrumboard.Model;
+using N_N_Scrumboard.ModelView;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -22,7 +22,6 @@ namespace N_N_Scrumboard.View
     /// </summary>
     public partial class BoardView : Window
     {
-
         private readonly BoardViewModel _boardviewModel;
         public BoardView()
         {
@@ -38,7 +37,7 @@ namespace N_N_Scrumboard.View
 
         private void ButtonDel(object sender, RoutedEventArgs e)
         {
-            Model.Task selectedTask = (sender as Button).DataContext as Model.Task;
+            Task selectedTask = (sender as Button).DataContext as Task;
             _boardviewModel.DeleteTask(selectedTask);
 
         }
@@ -50,7 +49,7 @@ namespace N_N_Scrumboard.View
 
         private void ButtonEdit(object sender, RoutedEventArgs e)
         {
-            Model.Task selectedTask = (sender as Button).DataContext as Model.Task;
+            Task selectedTask = (sender as Button).DataContext as Task;
             _boardviewModel.EditTask(selectedTask);
             UpdateListBox(Todo);
             UpdateListBox(InProgress);
@@ -60,7 +59,7 @@ namespace N_N_Scrumboard.View
 
         private void UpdateListBox(ListBox listBox)
         {
-            ObservableCollection<Model.Task> itemSource = listBox.ItemsSource as ObservableCollection<Model.Task>;
+            ObservableCollection<Task> itemSource = listBox.ItemsSource as ObservableCollection<Task>;
             listBox.ItemsSource = null;
             listBox.ItemsSource = itemSource;
         }

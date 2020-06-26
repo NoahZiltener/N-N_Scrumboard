@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using User = N_N_Scrumboard.Model.User;
 
 namespace N_N_Scrumboard.ModelView
 {
@@ -53,6 +51,7 @@ namespace N_N_Scrumboard.ModelView
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
+
         protected void OnPropertyChange(string propertyName)
         {
             if (PropertyChanged != null)

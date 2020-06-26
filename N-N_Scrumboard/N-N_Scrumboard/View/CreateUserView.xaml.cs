@@ -20,7 +20,6 @@ namespace N_N_Scrumboard.View
     /// </summary>
     public partial class CreateUserView : Window
     {
-
         private readonly CreateUserViewModel _CreateUserViewModel;
         public CreateUserView()
         {
@@ -29,7 +28,7 @@ namespace N_N_Scrumboard.View
             DataContext = _CreateUserViewModel;
         }
 
-        private void CreateNewUser(object sender, RoutedEventArgs e)
+        private void ButtonSave(object sender, RoutedEventArgs e)
         {
             if(String.IsNullOrEmpty(Name.Text) || String.IsNullOrEmpty(Job.Text))
             {

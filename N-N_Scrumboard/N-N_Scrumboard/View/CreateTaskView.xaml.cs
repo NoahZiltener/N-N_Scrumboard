@@ -21,6 +21,7 @@ namespace N_N_Scrumboard.View
     public partial class CreateTaskView : Window
     {
         private readonly CreateTaskViewModel _CreateTaskviewModel;
+
         public CreateTaskView()
         {
             InitializeComponent();
@@ -31,13 +32,13 @@ namespace N_N_Scrumboard.View
         public CreateTaskView(Model.Task task)
         {
             InitializeComponent();
-            PageTitle.Content = "Edit User";
+            PageTitle.Content = "Edit Task";
             _CreateTaskviewModel = new CreateTaskViewModel();
             DataContext = _CreateTaskviewModel;
             _CreateTaskviewModel.Task = task;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ButtonSave(object sender, RoutedEventArgs e)
         {
             if(String.IsNullOrEmpty(Title.Text) || String.IsNullOrEmpty(Description.Text))
             {

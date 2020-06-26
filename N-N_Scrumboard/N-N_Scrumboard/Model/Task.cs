@@ -9,6 +9,8 @@ namespace N_N_Scrumboard.Model
     public class Task
     { 
         private string _title;
+        private string _description;
+        private User _assinedTo;
 
         public string Title
         {
@@ -17,27 +19,18 @@ namespace N_N_Scrumboard.Model
             set { _title = value; }
         }
 
-        private string _description;
-
         public string Description
         {
             get { return _description; }
 
             set { _description = value; }
-        }
-
-        private User _assinedTo;
+        } 
 
         public User AssinedTo
         {
             get { return _assinedTo; }
 
             set { _assinedTo = value; }
-        }
-
-        public override string ToString()
-        {
-            return Title;
         }
     }
 }
