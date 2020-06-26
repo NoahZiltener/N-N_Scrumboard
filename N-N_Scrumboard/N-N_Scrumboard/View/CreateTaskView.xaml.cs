@@ -1,9 +1,9 @@
-﻿using N_N_Scrumboard.ModelView;
+﻿using N_N_Scrumboard.Model;
+using N_N_Scrumboard.ModelView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -29,7 +29,7 @@ namespace N_N_Scrumboard.View
             DataContext = _CreateTaskviewModel;
         }
 
-        public CreateTaskView(Model.Task task)
+        public CreateTaskView(Task task)
         {
             InitializeComponent();
             PageTitle.Content = "Edit Task";
