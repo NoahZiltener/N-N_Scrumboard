@@ -180,13 +180,13 @@ Wir haben auch wieder 3 Views. Die erste View ist unser Board wo alles angezeigt
 
 ### Testprotokoll
 
-| Test | Testperson | Datum | Status|
+| Test Beschreibung | Testperson | Datum | Status|
 | ----------- | --------- | ------ | --------------------------------- | 
-| - | - | - | ✅ / ❌  | 
-| -| - | - | ✅ / ❌ | 
-| -| - | -| ✅ / ❌  | 
-| -| -| - | ✅ / ❌  | 
-| - | - | - |✅ / ❌ |
-| -    | - |-|✅ / ❌ |  
+| Wenn ich auf den "New User" Button drücke soll sich ein Dialog öffnen. Wenn ich einen User erstelle ohne etwas einzugeben soll eine Fehler Meldung kommen, ansonsten soll der User erstellt werden | Noah Ziltener | 26.06.2020 | ✅ | 
+| Wenn ich auf den "New Task" Button drücke soll sich ein Dialog öffnen. Beim Task muss ich mindestens einen Titel und eine Beschreibung mitgeben, ansonsten bekomme ich eine Fehlermeldung. Zum Schluss wird der Task in der Todo Spalte auf dem Board dargestellt.| Nick Durrer | 26.06.2020 | ✅ | 
+| Wenn ich auf einem zuvor erstellten Task den "delete" Button drücke, soll er egal auf welcher Spalte er liegt aus dem Board entfernt werden.| Noah Ziltener | 26.06.2020| ✅| 
+| Wenn ich auf einem zuvor erstellten Task den "edit" Button drücke, soll ein Dialog geöffnet werden. In diesem Dialog kann ich den aktuellen Task bearbeiten und wieder speichern. Die Änderungen sollen direkt sichtbar sein.| Nick Durrer | 26.06.2020 | ✅ | 
+| Wenn ich einen zuvor erstellten Task packe, kann ich ihn in eine andere Tabelle via Drag and Drop verschieben. | Noah Ziltener | 26.06.2020 |✅ |
+| Wenn ich das Fenster vergrössere passen sich die Elemente an (Responsive Desgin).| Nick Durrer | 26.06.2020 |✅|  
 
 
