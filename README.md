@@ -111,7 +111,7 @@ Meine eigene Idee war bei der Verbindungssuche ein Button einzubauen. Der Button
 | User erstellen Logik | Noah Ziltener | 19/06/2020 | ✅ |
 | Task Sortirung | Nick Durrer | 19/06/2020 | ❌ |
 | Drag and Drop von Scrum Board | Noah Ziltener | 19/06/2020 | ✅ |
-| Testen & Resüme | Noah Ziltener / Nick Durrer | 26/06/2020 | ❌ |
+| Testen & Resüme | Noah Ziltener / Nick Durrer | 26/06/2020 | ✅ |
 
 <a name="udiagramm"/>
 
